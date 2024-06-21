@@ -3,15 +3,11 @@ import { BlogPosts } from 'app/components/posts'
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+      <h1 className="mb-8 text-3xl font-semibold tracking-tighter">
+        Blog
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        {`Hello World, my name is Joe Aguado and I'm a web developer based out of Dallas, Texas. I'm enthusiastic about technology that helps solve the needs for everyday business. The technological landscape is rapidly changing and I consider myself an asset to business owners who want to bridge those gaps. Check out some of my posts below to get an idea of the things I'm up to and some of my interests. Feel free to reach out to me at the links below!`}
       </p>
       <div className="my-8">
         <BlogPosts />
