@@ -16,10 +16,10 @@ export const metadata: Metadata = {
   },
   description: 'This is my blog',
   openGraph: {
-    title: 'Joe&apos;s Blog',
-    description: 'This is a Blog for my Portfolio.',
+    title: 'Joe Aguado&apos;s Blog',
+    description: 'This is a blog for my Portfolio.',
     url: baseUrl,
-    siteName: 'Joe Aguado Blog',
+    siteName: 'Joe Aguado&apos;s Blog',
     locale: 'en_US',
     type: 'website',
   },
