@@ -10,7 +10,7 @@ export default function Page() {
       </h1>
       <Image
       src="/images/hero.svg"
-      className='rounded-tl-lg rounded-bl-lg rounded-br-lg mb-4'
+      className='rounded-[20px] mb-4'
       alt='profile image'
       priority={true}
       // placeholder='blur'
