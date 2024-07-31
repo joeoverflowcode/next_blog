@@ -2,6 +2,7 @@ import { BlogPosts } from 'app/components/posts'
 import { TwoPosts } from './components/twoposts'
 import Image from 'next/image'
 import profile from '../app/public/images/profile.jpg'
+import { CaseStudies } from './components/casestudy'
 
 export default function Page() {
   return (
@@ -32,8 +33,10 @@ export default function Page() {
       </p>
       <div className="my-4">
         {/* <BlogPosts /> */}
-        <h1 className='my-4'>RecentEntries</h1>
+        <h1 className='mb-2'>Recent Blog Entries</h1>
         <TwoPosts />
+        <h1 className='mb-2'>Case Studies</h1>
+        <CaseStudies />
       </div>
     </section>
   )
