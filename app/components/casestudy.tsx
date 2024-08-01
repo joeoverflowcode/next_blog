@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { formatDate, getCaseStudy } from 'app/study/utils'
+import { CustomMDX } from 'app/components/mdx'
 
 export function CaseStudies() {
   let caseStudies = getCaseStudy()
@@ -23,12 +24,17 @@ export function CaseStudies() {
             href={`/study/${post.slug}`}
           >
             <div className="w-full flex flex-col md:flex-row space-x-0 md:space-x-2">
-              <p className="text-neutral-600 dark:text-neutral-400 w-[120px] tabular-nums">
+              {/* <p className="text-neutral-600 dark:text-neutral-400 w-[120px] tabular-nums">
                 {formatDate(post.metadata.publishedAt, false)}
-              </p>
+              </p> */}
               <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
                 {post.metadata.title}
               </p>
+
+             {/* <article className="prose line-clamp-2">
+        <CustomMDX source={post.content} />
+      </article> */}
+      <img src={post.metadata.image} alt={post.metadata.title} className='w-[400px]'/>
             </div>
           </Link>
         ))}

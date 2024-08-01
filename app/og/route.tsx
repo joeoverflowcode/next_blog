@@ -1,13 +1,8 @@
 import { ImageResponse } from 'next/og'
 
-
 export function GET(request: Request) {
-  if (process.env.NEXT_PHASE === 'phase-export') {
-    return new Response('This route is not available during static export.', { status: 404 });
-  }
-
-  let url = new URL(request.url);
-  let title = url.searchParams.get('title') || "Joe's Portfolio";
+  let url = new URL(request.url)
+  let title = url.searchParams.get('title') || "Joe's Portfolio'"
 
   return new ImageResponse(
     (
