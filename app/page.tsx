@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <section className='flex flex-col'>
       <h1 className="mb-8 text-3xl font-semibold tracking-tighter">
-        
+        test
       </h1>
       <Image
       src="/images/hero.svg"
