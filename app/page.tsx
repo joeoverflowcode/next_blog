@@ -3,16 +3,16 @@ import { TwoPosts } from './components/twoposts'
 import Image from 'next/image'
 import { CaseStudies } from './components/casestudy'
 import HeroButton from './components/HeroButton'
-
+import Hero from './components/hero'
 
 export default function Page() {
   return (
     <section className='flex flex-col items-center'>
 
-
-        <Image
+<Hero />
+        {/* <Image
         src="/images/hero.png"
-        className='rounded-xl mb-4 border-1 border-gray-200'
+        className='rounded-xl mb-4 border-1 border-black dark:border-gray-200'
         alt='profile image'
         priority={true}
         // placeholder='blur'
@@ -32,7 +32,7 @@ export default function Page() {
           />
 
 
-      </div>
+      </div> */}
 
 
 

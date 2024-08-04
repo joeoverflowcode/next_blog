@@ -1,7 +1,8 @@
 import React from 'react'
 import { FaLinkedin, FaGithub, FaEnvelope, FaPhone } from "react-icons/fa";
-
-
+import socials from 'app/components/socials';
+import Socials from 'app/components/socials';
+import HeroButton from 'app/components/HeroButton';
 export const metadata = {
     title: 'Contact',
     description: 'How to contact Joe',
@@ -12,13 +13,23 @@ const Page = () => {
     <>
     <h1 className='font-semibold text-2xl mb-8 tracking-tighter'>Contact Me</h1>
 
+    <p>
+    Let’s connect and discuss how we can work together on your next project. I'm open to collaborate on team projects, hackathons, consulting, contract work, part-time and full-time employment opportunities.
+    </p>
 
-    <div className='text-3xl flex flex-col gap-6'>
-    <div className='flex text-sm items-center gap-2.5'><FaLinkedin size={25}/> Linked In</div>
-    <div className='flex text-sm items-center gap-2.5'><FaGithub size={25}/>Github</div>
-    <div className='flex text-sm items-center gap-2.5'><FaEnvelope size={25}/>Email</div>
-    <div className='flex text-sm items-center gap-2.5'><FaPhone size={25}/>Phone</div>
-    </div>
+    <div className='flex flex-col px-8'>
+
+<HeroButton 
+otherClasses='mt-4 mb-4 mx-auto'
+title='Message'
+href='mailto:aguado.joe@gmail.com?subject=Work Inquiry'
+/>
+
+
+</div>
+
+    {/* <Socials /> */}
+
     </>
   )
 }

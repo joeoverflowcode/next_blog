@@ -18,7 +18,7 @@ import { formatDate,
           className="flex flex-col space-y-1 mb-4"
           href={`/blog/${post.slug}`}
         >
-          <div className="w-full flex flex-col space-x-0 md:space-x-2 border-2 border-white max-w-[24rem] p-4">
+          <div className="w-full flex flex-col space-x-0 md:space-x-2 border-2 border-black dark:border-white max-w-[24rem] p-4">
             <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
               {post.metadata.title}
             </p>
