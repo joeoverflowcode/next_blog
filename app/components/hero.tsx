@@ -4,10 +4,10 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className='flex flex-col items-center md:flex-row'>
+    <div className='flex flex-col items-center md:flex-row mb-10'>
     <Image
     src="/images/hero.png"
-    className='rounded-xl mb-4 border-1 border-black dark:border-gray-200'
+    className='rounded-2xl mb-4 border-1 border-black dark:border-gray-200'
     alt='profile image'
     priority={true}
     // placeholder='blur'

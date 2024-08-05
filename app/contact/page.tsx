@@ -13,8 +13,8 @@ const Page = () => {
     <>
     <h1 className='font-semibold text-2xl mb-8 tracking-tighter'>Contact Me</h1>
 
-    <p>
-    Let’s connect and discuss how we can work together on your next project. I'm open to collaborate on team projects, hackathons, consulting, contract work, part-time and full-time employment opportunities.
+    <p className=" text-center" style={{ }}>
+ I'm open to collaborate on open source projects, meetups, and hackathons. I offer contract and freelance services for website builds. I am open to part-time and full-time employment opportunities.
     </p>
 
     <div className='flex flex-col px-8'>
