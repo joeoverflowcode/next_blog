@@ -17,8 +17,12 @@ const Page = () => {
  I'm open to collaborate on open source projects, meetups, and hackathons. I offer contract and freelance services for website builds. I am open to part-time and full-time employment opportunities.
     </p>
 
-    <div className='flex flex-col px-8'>
-
+    <div className='flex'>
+    <HeroButton 
+otherClasses='mt-4 mb-4 mx-auto'
+title='Resume'
+href='/Aguado2024.pdf'
+/>
 <HeroButton 
 otherClasses='mt-4 mb-4 mx-auto'
 title='Message'
